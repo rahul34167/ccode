@@ -1,0 +1,15 @@
+#! /bin/sh 
+# replace 
+
+for i in $1
+
+do 
+
+sed 's/studio/stdio/g'
+
+done 
+
+exit 0
+
+
+

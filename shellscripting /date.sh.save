@@ -1,0 +1,17 @@
+#!/bin/sh 
+#first 
+
+
+for i in `ls`
+
+date =  awk '{print$3}'
+
+x=$3
+
+ls -l | awk '{print$7}'
+
+y=$7
+
+if (x==y)  
+
+ls 

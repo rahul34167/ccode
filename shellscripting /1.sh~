@@ -1,0 +1,15 @@
+#!/bin/sh 
+
+
+cat /etc/hosts > host.txt
+
+for file in  $1
+
+do
+   
+awk '{print$1 $2}' | head -2
+echo  "$1 $2"
+done
+
+
+

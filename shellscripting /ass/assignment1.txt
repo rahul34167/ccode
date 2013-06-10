@@ -1,0 +1,93 @@
+Assignment-1
+
+Bits n Bytes
+
+	1. Compute the sign of an integer
+	2. Detect if two integers have opposite signs  
+	3. Compute the integer absolute value (abs) without branching
+	4. Compute the minimum (min) or maximum (max) of two integers without branching
+	5. Determining if an integer is a power of 2
+	6. Find integer log base 10 of an integer
+	7. Round up to the next highest power of 2
+	8. Determine if a word has a zero byte
+9. Swapping individual bits with XOR
+10. Find next higher integer with same number of 1's as in the given integer
+
+**********************************************************************************
+Shell Scripting assignment
+
+	1. Accept a filename as command line argument. Display all lines of that file which 
+	contain the exact word "on" (on should match, whereas one, cron, and stone should not match)
+	2. Write a shell script that accepts a filename as its argument and displays whether:
+	(a) file exists or not
+	(b) file is readable or not
+	(c) file is writeable or not
+	(d) is a plain file
+	(e) is a directory
+
+3. Write script that takes any number of ﬁles / folders as command-line
+argument and creates tar ﬁle containing all those folders and ﬁles. The
+name of tar ﬁle should be based on current date and time. Use following
+format for naming tar ﬁle - YYYY-mm-dd-HH-mm-ss.tar. For example
+2011-09-27-18-43-45.tar
+
+4. A ﬁle contains list of roll numbers of students who copied assignment
+from each other. Write program which reads the ﬁle and groups of all
+students together who copied assignments. For example, if ﬁle has:
+300106040 300294658
+300106040 300107059
+300109527 300109529
+300109527 300642821
+300106040 300754628
+300892421 300992421
+then output would be:
+* 300892421 300992421
+* 300106040 300107059 300294658 400605824 300754628
+* 300109527 300109529 300642821
+
+5. Find all hard-links of givenn ﬁel without using ‘find’ or any similar
+command which can directly ﬁnd hard-linked ﬁles. Your script should
+search entire partition for ﬁles which are hard-linked to given ﬁle.
+
+**************************************************************************************************
+Regex Assignment
+
+	1.  Regular expressions	
+	    Let the alphabet = {a,b}.  Note  e  is the empty string.  
+	    Write regular expressions for:
+
+      All words in which 'a' appears tripled (and only tripled, meaning all
+      a's must appear in groups of three)(the empty string is valid).
+
+      All words that contain at least one of the given strings s1, s2, s3, s4:
+      (where s1, s2, s3, s4 are strings made up only of a's and/or b's).  For 
+      example, s1 could be "ab" or "abbaa" or "aaa" or "b" .
+
+      All words that contain exactly three b's in total.
+
+      All words that contain exactly two b's or exactly three b's.
+
+      All strings that end in a double letter.
+
+      All strings that have exactly one double letter in them.
+
+      All strings that do not have the substring "ab" .
+
+	2.  Write a regular expression for all unsigned numbers in Pascal.  They are
+	    strings such as 5280, 39.37, 499E3, 63.36E4, 1.894E-3, 2.3478E+11. 
+	    You are not allowed to have a naked decimal point.  For example the number
+	    5.  or  .5 is not allowed, must use 5.0 and 0.5.  The E is for exponent,	
+	    essentially scientific notation.  
+
+For these problems, the alphabet is {a,b}.
+	3.  Write reg expr for words with 'b' as the second letter.
+
+	4.  Write reg expr for words baa, ab, and abb .
+
+5.  Write reg expr for only those words that have an even 
+    number of letters total.
+
+	6.  Write reg expr for only those words that do not end in "ba" .
+
+	7.  Let the alphabet be {0,1}.  Write a regular expression for
+	    the set of all strings not containing 101 as a substring.

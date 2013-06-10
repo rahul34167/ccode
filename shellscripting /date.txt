@@ -1,0 +1,27 @@
+total 2040
+-rwxrwxr-x 1 rahul rahul      66 May 30 12:07 1.sh
+-rwxrwxr-x 1 rahul rahul     115 May 30  2013 1.sh~
+drwx------ 2 rahul rahul    4096 May 29 23:02 ass
+-rw-rw-r-- 1 rahul rahul       1 May 30  2013 *.c
+-rwxrwxr-x 1 rahul rahul      80 May 29 13:56 comp.sh
+-rwxrwxr-x 1 rahul rahul     134 May 29 16:44 date.sh
+-rw-rw-r-- 1 rahul rahul     115 May 28 18:55 date.sh.save
+-rw-rw-r-- 1 rahul rahul       0 May 30 12:14 date.txt
+-rw-rw-r-- 1 rahul rahul      70 May 29 13:47 file.txt
+-rw-rw-r-- 1 rahul rahul       0 May 30 11:56 hello.c
+-rw-rw-r-- 1 rahul rahul       2 May 30 10:58 host.sh
+-rw-rw-r-- 1 rahul rahul       0 May 30 12:03 host.txt
+-rw-r--r-- 1 rahul rahul 2011934 May 30  2013 index.html
+-rwxrwxr-x 1 rahul rahul     154 May 30  2013 mem.sh
+prw-rw-r-- 1 rahul rahul       0 May 29 11:55 newpipe
+-rwxrwxr-x 1 rahul rahul     113 May 30  2013 newreplace.sh
+-rw-rw-r-- 1 rahul rahul      20 May 30  2013 newworld.c
+-rw-rw-r-- 1 rahul rahul    1887 May 28 21:54 passwd
+-rw-rw-r-- 1 rahul rahul       0 May 29 16:39 { print $7 }
+-rwxrwxr-x 1 rahul rahul     140 May 30  2013 replace.sh
+-rwxrwxr-x 1 rahul rahul      83 May 29 16:59 replace.sh.save
+-rw-rw-r-- 1 rahul rahul       0 May 29 11:45 s.txt
+-rw-rw-r-- 1 rahul rahul       0 May 29 11:47 testfor
+-rwxrwxr-x 1 rahul rahul      63 May 29 11:50 testfor.sh
+-rw-rw-r-- 1 rahul rahul      17 May 30  2013 world.c
+-rw-rw-r-- 1 rahul rahul      40 May 28 00:20 x.txt
