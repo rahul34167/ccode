@@ -1,0 +1,91 @@
+#include<stdio.h>
+#define size1 5
+int arr[size];
+static int front=-1;
+static int rear=-1;
+int main()
+{
+int choice;
+while(1)
+{
+printf("enter your choice \n 1 for insert \n 2 for delete\n3 for display\n");
+scanf("%d",&choice);
+switch(choice)
+{
+case 1:
+insert();
+break;
+case 2:
+Delete();
+break;
+case 3:
+display();
+break;
+default :
+printf("wrong choice");
+}
+}
+}
+
+void insert()
+{
+static int i=0;
+int p[size];
+int item;
+printf("enter the element to insert and its priority");
+scanf("%d %d",&item,&p[i]);
+i++;
+if((front==0&&rear==size-1) || front=rear+1)
+{
+printf("overflow occured");
+}
+else if(rear==-1)
+{
+if(front==-1)
+front=0;
+rear=0;               //insert as first element with given priority
+arr[rear]=item;
+rear=rear+1;
+}
+else
+{
+int j;
+for(i=0;i<=rear;i++)
+{
+if(data>arr[i])
+for(j=rear+1;j>=i;j--)
+arr[j]=arr[j-1]
+}
+arr[front]=item;
+}
+}
+
+void Delete()
+{
+int i,j;
+int data;
+printf("enter the item to delete\n");
+scanf("%d",&data);
+for(i=front;i<=rear;i++)
+{
+if(arr[i]==data)
+{
+int j= arr[i];
+for(j=i;j<=rear;j++)
+arr[j]=arr[j+1];
+}
+
+}
+}
+
+void display()
+{
+int i;
+for(i=front;i<=rear;i++)
+printf("%d\n",arr[i]);
+}
+
+
+
+
+

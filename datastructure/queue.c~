@@ -1,0 +1,64 @@
+#include<stdio.h>
+#define max 5;
+
+int front=-1;
+ int rear=-1;
+ int arr[max];
+int insert(int);
+void deletedata();
+void display();
+ 
+int main()
+{
+//int arr[size];
+printf("the queue implementation");
+insert(5);
+insert(6);
+insert(7);
+insert(8);
+deletedata();
+deletedata();
+display();
+return 0;
+}
+
+int insert(int data)
+{
+if(rear==max-1)
+{
+printf("the queue is full and overflow condition");
+return ;
+}
+else 
+{
+front=0;
+rear=rear+1;
+arr[rear]=data;
+printf("the element inserted is %d",arr[rear] );
+}
+return;
+}
+void deletedata()
+{
+//int arr[size];
+if(front==-1 && rear == -1)
+{
+printf("the overflow condition");
+}
+else
+{
+int j = arr[front];
+front=front+1;
+printf("the element deleted is %d",j);
+}
+
+}
+void  display()
+{
+//int arr[size];
+int i;
+for(i=front;i<=rear;i++ )
+{
+printf("%d", arr[i]);
+}
+}
